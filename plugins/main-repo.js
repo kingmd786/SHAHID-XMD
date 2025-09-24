@@ -13,7 +13,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/QadeerXTech/REDZONE-MD';
+    const githubRepoURL = 'https://github.com/kingmd786/SHAHID-XMD';
 
     try {
         // Extract username and repo name from the URL
@@ -33,15 +33,15 @@ async (conn, mek, m, { from, reply }) => {
 
         // Send image with caption
         await conn.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/l8psgf.jpg` },
+            image: { url: `https://files.catbox.moe/sxa61f.jpg` },
             caption: formattedInfo,
             contextInfo: { 
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363418906972955@newsletter',
-                    newsletterName: '𝐑𝐄𝐃𝐙𝐎𝐍𝐄-𝐌𝐃',
+                    newsletterJid: '120363420842499241@newsletter',
+                    newsletterName: 'SHAHID-XMD',
                     serverMessageId: 143
                 }
             }
@@ -58,8 +58,8 @@ async (conn, mek, m, { from, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363418906972955@newsletter',
-                    newsletterName: '𝐑𝐄𝐃𝐙𝐎𝐍𝐄-𝐌𝐃',
+                    newsletterJid: '120363420842499241@newsletter',
+                    newsletterName: 'SHAHID-XMD',
                     serverMessageId: 143
                 }
             }
