@@ -250,8 +250,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• 📦 blackbox
 ┃◈┃• 🌈 luma
 ┃◈┃• 🎧 dj
-┃◈┃• 👑 DARKZONE 
-┃◈┃• 🤵 IRFAN 
+┃◈┃• 👑 QADEER-AI 
+┃◈┃• 🤵 QADEER 
 ┃◈┃• 🧠 gpt4
 ┃◈┃• 🔍 bing
 ┃◈┃• 🎨 imagine
@@ -346,14 +346,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/l8psgf.jpg' },
+                image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/sxa61f.jpg' },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363418906972955@newsletter',
+                        newsletterJid: '120363420842499241@newsletter',
                         newsletterName: config.BOT_NAME,
                         serverMessageId: 143
                     }
