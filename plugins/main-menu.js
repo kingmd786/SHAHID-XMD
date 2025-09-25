@@ -250,8 +250,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• 📦 blackbox
 ┃◈┃• 🌈 luma
 ┃◈┃• 🎧 dj
-┃◈┃• 👑 QADEER-AI 
-┃◈┃• 🤵 QADEER 
+┃◈┃• 👑 SHAHID-AI 
+┃◈┃• 🤵 shahid 
 ┃◈┃• 🧠 gpt4
 ┃◈┃• 🔍 bing
 ┃◈┃• 🎨 imagine
