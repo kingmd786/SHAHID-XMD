@@ -5,9 +5,9 @@ cmd({
     pattern: "pair",
     alias: ["getpair", "clonebot"],
     react: "✅",
-    desc: "Get pairing code for QADEER-AI bot",
+    desc: "Get pairing code for SHAHID-XMD~ bot",
     category: "download",
-    use: ".pair 923235906XXX",
+    use: ".pair 923423706XXX",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, senderNumber, reply }) => {
     try {
@@ -27,7 +27,7 @@ cmd({
         }
 
         const pairingCode = response.data.code;
-        const doneMessage = "> *QADEER-AI PAIRING COMPLETED*";
+        const doneMessage = "> *SHAHID-XMD PAIRING COMPLETED*";
 
         // Send initial message with formatting
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);
