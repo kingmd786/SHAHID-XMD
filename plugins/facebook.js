@@ -84,7 +84,7 @@ async function facebookCommand(sock, chatId, message) {
         await sock.sendMessage(chatId, {
             video: { url: tempFile },
             mimetype: "video/mp4",
-            caption: "📥 Downloaded via *SHAHID KING-MD* 🚀"
+            caption: "📥 Downloaded via *SHAHID-XMD* 🚀"
         }, { quoted: message });
 
         // Clean up temp file
